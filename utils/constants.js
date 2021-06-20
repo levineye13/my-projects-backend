@@ -11,4 +11,14 @@ const mimeTypes = {
   '.woff': 'font/woff',
 };
 
-module.exports = { mimeTypes };
+const HTTP_METHODS = {
+  OPTIONS: 'OPTIONS',
+  HEAD: 'HEAD',
+  GET: 'GET',
+  POST: 'POST',
+  PATCH: 'PATCH',
+  PUT: 'PUT',
+  DELETE: 'DELETE',
+};
+
+module.exports = { mimeTypes, HTTP_METHODS };
